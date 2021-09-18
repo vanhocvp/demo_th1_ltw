@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thuc Hanh 1</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+    <div class="slidebar w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width:200px;" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
+        <a href="#" class="w3-bar-item w3-button">HTML</a>
+        <a href="#" class="w3-bar-item w3-button">CSS</a>
+        <a href="#" class="w3-bar-item w3-button">JS</a>
+    </div>
+    <div class="main">
+        <form action="">
+            <h1>Đăng ký thông tin</h1>
+            <label for="username">Username:</label>
+            <input type="text" name="" id="username"><br><br>
+            <label for="password">Password:</label>
+            <input type="text" name="" id="password"><br><br>
+            <label for="email">Email:</label>
+            <input type="text" name="" id="email"><br><br>
+            <div id="date_of_birth">
+                <label for="date_of_birth">Ngày sinh:</label>
+                <label for="date_of_birth:day" class="sub-label">Ngay:</span>
+                <select class="first" id="date_of_birth:day" tabindex="7">
+                    <option value="defaul" selected>----</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+                <label for="date_of_birth:mon" class="sub-label">Thang:</span>
+                <select id="date_of_birth:mon" tabindex="8">
+                    <option value="defaul" selected>----</option>
+                    <option value="1">Jan</option>
+                    <option value="2">Feb</option>
+                    <option value="3">Mar</option>
+                    <option value="4">Apr</option>
+                    <option value="5">May</option>
+                    <option value="6">Jun</option>
+                    <option value="7">Jul</option>
+                    <option value="8">Aug</option>
+                    <option value="9">Sep</option>
+                    <option value="10">Oct</option>
+                    <option value="11">Nov</option>
+                    <option value="12">Dec</option>
+                </select>
+                <label for="date_of_birth:year" class="sub-label">Nam:</span>
+                <select id="date_of_birth:year" tabindex="9">
+                    <option value="defaul" selected>----</option>
+                    <option value="1920">1920</option>
+                    <option value="1921">1921</option>
+                    <option value="1922">1922</option>
+                    <option value="1923">1923</option>
+                    <option value="1924">1924</option>
+                    <option value="1925">1925</option>
+                    <option value="1926">1926</option>
+                    <option value="1927">1927</option>
+                    <option value="1928">1928</option>
+                    <option value="1929">1929</option>
+                    <option value="1930">1930</option>
+                    <option value="1931">1931</option>
+                    <option value="1932">1932</option>
+                    <option value="1933">1933</option>
+                    <option value="1934">1934</option>
+                    <option value="1935">1935</option>
+                    <option value="1936">1936</option>
+                    <option value="1937">1937</option>
+                    <option value="1938">1938</option>
+                    <option value="1939">1939</option>
+                    <option value="1940">1940</option>
+                    <option value="1941">1941</option>
+                    <option value="1942">1942</option>
+                    <option value="1943">1943</option>
+                    <option value="1944">1944</option>
+                    <option value="1945">1945</option>
+                    <option value="1946">1946</option>
+                    <option value="1947">1947</option>
+                    <option value="1948">1948</option>
+                    <option value="1949">1949</option>
+                    <option value="1950">1950</option>
+                    <option value="1951">1951</option>
+                    <option value="1952">1952</option>
+                    <option value="1953">1953</option>
+                    <option value="1954">1954</option>
+                    <option value="1955">1955</option>
+                    <option value="1956">1956</option>
+                    <option value="1957">1957</option>
+                    <option value="1958">1958</option>
+                    <option value="1959">1959</option>
+                    <option value="1960">1960</option>
+                    <option value="1961">1961</option>
+                    <option value="1962">1962</option>
+                    <option value="1963">1963</option>
+                    <option value="1964">1964</option>
+                    <option value="1965">1965</option>
+                    <option value="1966">1966</option>
+                    <option value="1967">1967</option>
+                    <option value="1968">1968</option>
+                    <option value="1969">1969</option>
+                    <option value="1970">1970</option>
+                    <option value="1971">1971</option>
+                    <option value="1972">1972</option>
+                    <option value="1973">1973</option>
+                    <option value="1974">1974</option>
+                    <option value="1975">1975</option>
+                    <option value="1976">1976</option>
+                    <option value="1977">1977</option>
+                    <option value="1978">1978</option>
+                    <option value="1979">1979</option>
+                    <option value="1980">1980</option>
+                    <option value="1981">1981</option>
+                    <option value="1982">1982</option>
+                    <option value="1983">1983</option>
+                    <option value="1984">1984</option>
+                    <option value="1985">1985</option>
+                    <option value="1986">1986</option>
+                    <option value="1987">1987</option>
+                    <option value="1988">1988</option>
+                    <option value="1989">1989</option>
+                    <option value="1990">1990</option>
+                    <option value="1991">1991</option>
+                    <option value="1992">1992</option>
+                    <option value="1993">1993</option>
+                    <option value="1994">1994</option>
+                    <option value="1995">1995</option>
+                    <option value="1996">1996</option>
+                    <option value="1997">1997</option>
+                    <option value="1998">1998</option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                </select>
+            </div>
+            <br>
+            <div id="sex">
+                <label>Gioi tinh:</label>
+                <label for="nam" class="sub-label">Nam: </label>
+                <input type="radio" name="sex" id="nam">
+                <label for="nu" class="sub-label">Nu: </label>
+                <input type="radio" name="sex" id="nu">
+            </div>
+            <br>
+            <div id="province">
+                <label for="province">Tỉnh/ Thành phố:</label>
+                <select name="province" id="province">
+                    <option value="other" selected>Other</option>
+                    <option value="hanoi">Hà Nội</option>
+                    <option value="thanhhoa">Thanh Hoá</option>
+                    <option value="vinhphuc">Vĩnh Phúc</option>
+                    <option value="hcm">Hồ Chí Minh</option>
+                </select>
+            </div>
+            <br>
+            <div id="hobby">
+                <label for="">Sở thích: </label>
+                <label for="hobby1" class="sub-label">Thể thao:</label>
+                <input type="checkbox" name="hobby1" id="hobby1">
+                <label for="hobby2" class="sub-label">Nghe nhạc:</label>
+                <input type="checkbox" name="hobby2" id="hobby2">
+                <label for="hobby3" class="sub-label">Mua sắm:</label>
+                <input type="checkbox" name="hobby3" id="hobby3">
+                <label for="hobby4" class="sub-label">Du lịch:</label>
+                <input type="checkbox" name="hobby4" id="hobby4">
+            </div>
+            <br>
+            <label for="introduce">Mô tả bản thân:</label>
+            <br>
+            <textarea id="introduce" name="introduce" rows="6" cols="50"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+        <hr>
+        <footer>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.3795915299897!2d105.78185211540271!3d20.97741578602623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acd28b922b2d%3A0x221ba2eb8a507f1d!2zMTEwIFRy4bqnbiBQaMO6LCBQLiBN4buZIExhbywgSMOgIMSQw7RuZywgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1631901415165!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCovyAI%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+<!-- Messenger Plugin chat Code -->
+<div id="fb-root"></div>
+
+<!-- Your Plugin chat code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "108196694888982");
+  chatbox.setAttribute("attribution", "biz_inbox");
+
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v12.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+           
+        </footer>
+    </div>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+</html>
